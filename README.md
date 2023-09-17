@@ -20,18 +20,18 @@ cache
 ## 주의사항
 !스크립트 사용시 다음 캐시가 지워질 수 있으며 책임지지 않습니다.
 ``` shell
-rm -rf ${HOME}/Library/Application\ Support/Code/User/workspaceStorage
-rm -rf ${HOME}/Library/Application\ Support/Code/CachedExtensionVSIXs
-rm -rf ${HOME}/Library/Application\ Support/Code/CachedData
-rm -rf ${HOME}/Library/Application\ Support/Code/Cache
-rm -rf ${HOME}/Library/Caches
-rm -rf ${HOME}/Library/Application\ Support/discord/Cache
-rm -rf ${HOME}/Library/Application\ Support/Caches
-rm -rf ${HOME}/Library/Application\ Support/Slack/Cache
-rm -rf ${HOME}/Library/Application\ Support/discord/Code\ Cache
-rm -rf ${HOME}/Library/Application\ Support/Google/Chrome/Default/Service\ Worker/CacheStorage
-rm -rf ${HOME}/Library/Application\ Support/Google/Chrome/Default/Service\ Worker/ScriptCache
-rm -rf ${HOME}/Library/Application\ Support/Slack/Service\ Worker/CacheStorage
-rm -rf ${HOME}/Library/Containers/com.apple.Safari/Data/Library/Caches
-rm -rf ${HOME}/.Trash/*
+Library/Application\ Support/Code/User/workspaceStorage
+Library/Application\ Support/Code/CachedExtensionVSIXs
+Library/Application\ Support/Code/CachedData
+Library/Application\ Support/Code/Cache
+Library/Caches
+Library/Application\ Support/discord/Cache
+Library/Application\ Support/Caches
+Library/Application\ Support/Slack/Cache
+Library/Application\ Support/discord/Code\ Cache
+Library/Application\ Support/Google/Chrome/Default/Service\ Worker/CacheStorage
+Library/Application\ Support/Google/Chrome/Default/Service\ Worker/ScriptCache
+Library/Application\ Support/Slack/Service\ Worker/CacheStorage
+Library/Containers/com.apple.Safari/Data/Library/Caches
+.Trash/*
 ```
