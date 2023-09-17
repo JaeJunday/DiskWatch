@@ -19,6 +19,7 @@ cache
 
 ## 주의사항
 !스크립트 사용시 다음 캐시가 지워질 수 있으며 책임지지 않습니다.
+``` shell
 rm -rf ${HOME}/Library/Application\ Support/Code/User/workspaceStorage
 rm -rf ${HOME}/Library/Application\ Support/Code/CachedExtensionVSIXs
 rm -rf ${HOME}/Library/Application\ Support/Code/CachedData
@@ -33,3 +34,4 @@ rm -rf ${HOME}/Library/Application\ Support/Google/Chrome/Default/Service\ Worke
 rm -rf ${HOME}/Library/Application\ Support/Slack/Service\ Worker/CacheStorage
 rm -rf ${HOME}/Library/Containers/com.apple.Safari/Data/Library/Caches
 rm -rf ${HOME}/.Trash/*
+```
