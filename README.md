@@ -18,7 +18,7 @@ cache
 <img width="1126" alt="스크린샷 2023-09-17 오후 10 35 26" src="https://github.com/JaeJunday/42DiskUsage/assets/109643814/d59211ff-8e54-4c27-a65d-e30412dd9312">
 
 ## 주의사항
-!스크립트 사용시 다음 캐시가 지워질 수 있으며 책임지지 않습니다.
+! 스크립트 사용시 다음 캐시가 지워질 수 있으며 책임지지 않습니다.
 ``` shell
 Library/Application\ Support/Code/User/workspaceStorage
 Library/Application\ Support/Code/CachedExtensionVSIXs
