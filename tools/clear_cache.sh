@@ -59,7 +59,7 @@ else
 fi
 
 # 필요한 정보 추출
-df_GRAPH=$(df -m | tail -n 1)
+df_GRAPH=$(df -m | grep $USER)
 total_g=$(echo "$df_GRAPH" | awk '{print $2}')
 used_g=$(echo "$df_GRAPH" | awk '{print $3}')
 PERCENTAGE_g=$(echo "$df_GRAPH" | awk '{sub(/%$/, "", $5); print $5}')
