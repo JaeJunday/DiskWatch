@@ -43,7 +43,7 @@ rm -rf ${HOME}/Library/Containers/com.apple.Safari/Data/Library/Caches
 rm -rf ${HOME}/.Trash/*
 
 # df -h 명령어 실행 및 마지막 줄 추출
-df_output=$(df -h | tail -n 1)
+df_output=$(df -h | grep $USER)
 
 # 컬러 선택
 PERCENTAGE=$(echo "$df_output" | awk '{sub(/%$/, "", $5); print $5}')
