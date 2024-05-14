@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 이스케이프 컬러 시퀀스 
+# 이스케이프 컬러
 DELETE=$'\033[1A\033[K'
 Red=$'\033[0;31m'
 Green=$'\033[0;32m'
@@ -49,9 +49,9 @@ df_output=$(df -h | grep $USER)
 PERCENTAGE=$(echo "$df_output" | awk '{sub(/%$/, "", $5); print $5}')
 color=""
 if (( $(awk 'BEGIN {print ('"$PERCENTAGE"' < 50)}') )); then
-    color=$B_BG_CYAN  # 초록색
+    color=$B_BG_CYAN  
 elif (( $(awk 'BEGIN {print ('"$PERCENTAGE"' < 65)}') )); then
-    color=$B_BG_GREEN  # 초록색
+    color=$B_BG_GREEN
 elif (( $(awk 'BEGIN {print ('"$PERCENTAGE"' < 80)}') )); then
     color=$B_BG_YELLOW
 else
@@ -77,4 +77,4 @@ done
 # 출력
 printf $DELETE
 printf "$GRAPH "
-printf "$RESET$PERCENTAGE\e[0m %% $REVERSE$B_BLACK made by jaejkim $RESET\n"
+printf "$RESET$PERCENTAGE\e[0m %%\n"
