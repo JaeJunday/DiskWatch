@@ -18,7 +18,7 @@ cache
 - oh-my-zsh을 사용하는 경우 zshrc에 스크립트삽입하는 행위를 위험한 동작으로 간주해서 제대로 동작하지 않을 수 있습니다.
   
 ## 주의사항
-! 스크립트 사용시 다음 캐시가 지워질 수 있으며 책임지지 않습니다.
+! 스크립트 사용시 다음 캐시가 지워질 수 있습니다.
 ``` shell
 Library/Application\ Support/Code/User/workspaceStorage
 Library/Application\ Support/Code/CachedExtensionVSIXs
