@@ -1,4 +1,4 @@
-# 42DiskUsage
+# DiskWatch
 
 ## 터미널에 붙여넣으세요
 ``` shell
