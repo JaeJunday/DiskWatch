@@ -2,8 +2,8 @@
 
 ## 터미널에 붙여넣으세요
 ``` shell
-git clone git@github.com:JaeJunday/42DiskUsage
-cd 42DiskUsage
+git clone git@github.com:JaeJunday/DiskWatch
+cd DiskWatch
 make re
 ```
 ## 사용방법
